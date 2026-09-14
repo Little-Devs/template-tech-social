@@ -46,8 +46,14 @@ const Header = () => {
 
           <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
             <SheetTrigger asChild className="md:hidden">
-              <Button variant="outline" size="sm" className="border-2 border-primary">
-                <Menu className="h-5 w-5" />
+              <Button
+                variant="outline"
+                size="sm"
+                className="border-2 border-primary"
+                aria-label="Open menu"
+                aria-expanded={mobileMenuOpen}
+              >
+                <Menu className="h-5 w-5" aria-hidden="true" />
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="border-l-2 border-primary w-[80vw] sm:w-[385px]">

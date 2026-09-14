@@ -111,8 +111,8 @@ All colors MUST be HSL.
     z-index: 9999;
   }
   
-  html {
-    scroll-behavior: smooth;
+  @media (prefers-reduced-motion: no-preference) {
+    html { scroll-behavior: smooth; }
   }
 }
 
@@ -147,5 +147,24 @@ All colors MUST be HSL.
     content: "█";
     animation: blink 1s infinite;
     margin-left: 2px;
+  }
+}
+
+
+/* TS-PRM-01: gate CRT motion under prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .animate-pulse,
+  .cursor-blink::after {
+    animation: none !important;
+  }
+  body::before {
+    opacity: 0.15; /* keep light scan texture, no shimmer feel */
   }
 }
