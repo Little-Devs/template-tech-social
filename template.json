@@ -1,0 +1,87 @@
+{
+  "id": "tech-social",
+  "name": "Tech Social",
+  "version": "1.0.0",
+  "description": "Terminal-aesthetic community events site (demo: LOREM.SCENE). Vite + React + Tailwind + shadcn with events list, community, and sponsors pages.",
+  "category": "landing-page",
+  "subcategory": "community/events",
+  "repository": "https://github.com/Little-Devs/template-tech-social",
+  "demoUrl": "https://tech-social.little.website/",
+  "previewImage": "https://tech-social.little.website/preview.png",
+  "techStack": {
+    "framework": "Vite + React",
+    "version": "5 / 18",
+    "styling": "Tailwind CSS + shadcn/ui",
+    "scripting": "TypeScript"
+  },
+  "features": [
+    "Multi-page SPA (React Router BrowserRouter)",
+    "Terminal / green-on-black aesthetic with CRT scanlines",
+    "Typewriter hero and glow borders",
+    "Events list + event detail routes",
+    "Community and sponsors pages",
+    "Static mailto CTAs (no checkout)",
+    "Privacy / cookie / terms pages",
+    "Self-hosted JetBrains Mono (CSP-friendly)",
+    "Cloudflare Pages public/_headers (Steve bar) + SPA _redirects"
+  ],
+  "aesthetic": {
+    "style": "Terminal / CRT community",
+    "description": "Black background, phosphor green (#00FF00) type and borders, monospace UI, scanline overlay, hard corners",
+    "fonts": {
+      "display": "JetBrains Mono",
+      "sans": "JetBrains Mono",
+      "mono": "JetBrains Mono"
+    },
+    "colors": {
+      "primary": "#00FF00",
+      "primaryName": "Terminal green",
+      "accent": "#00CC00",
+      "accentName": "Dark green accent",
+      "background": "#000000",
+      "backgroundName": "Black",
+      "foreground": "#66FF66",
+      "foregroundName": "Soft green"
+    }
+  },
+  "sections": [
+    "Sticky header (wordmark + Events / Community / Sponsors)",
+    "Typewriter hero",
+    "Featured / upcoming events cards",
+    "Community callout",
+    "Sponsors strip",
+    "Footer (nav, legal, social placeholders)",
+    "Events index + event detail",
+    "Community page",
+    "Sponsors page",
+    "Terms / Privacy / Cookies"
+  ],
+  "useCases": [
+    "Local tech meetup / community events sites",
+    "Hacker-club or user-group calendars",
+    "Sponsor-ready community microsites",
+    "Terminal-aesthetic brand landings"
+  ],
+  "customization": {
+    "difficulty": "easy",
+    "colorScheme": "src/index.css :root HSL CSS variables",
+    "typography": "Self-hosted JetBrains Mono in src/assets/fonts/",
+    "layout": "React pages + Tailwind utility classes + shadcn/ui"
+  },
+  "license": "MIT",
+  "author": "Little-Devs",
+  "createdAt": "2026-09-14",
+  "lastUpdated": "2026-09-14",
+  "tags": [
+    "landing-page",
+    "community",
+    "events",
+    "meetup",
+    "vite",
+    "react",
+    "tailwind",
+    "shadcn",
+    "terminal",
+    "crt"
+  ]
+}

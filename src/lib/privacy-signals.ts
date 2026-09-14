@@ -72,17 +72,9 @@ export function shouldDisableTracking(): boolean {
 }
 
 /**
- * Log privacy signal detection (for debugging and compliance documentation)
+ * Hook for privacy-signal side effects (no-op; no console / analytics).
  */
 export function logPrivacySignals(): void {
-  if (typeof console !== 'undefined' && process.env.NODE_ENV === 'development') {
-    const signals = getPrivacySignals();
-    if (signals.shouldRespectPrivacy) {
-      console.log('[Privacy] Privacy signals detected:', signals.detectedSignals.join(', '));
-      console.log('[Privacy] Analytics and tracking disabled');
-    } else {
-      console.log('[Privacy] No privacy signals detected');
-    }
-  }
+  // Intentionally empty — keep call sites; do not log in production templates.
 }
 
