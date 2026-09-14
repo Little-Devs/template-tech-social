@@ -1,0 +1,42 @@
+# Lorem Scene - Robots.txt
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://example.com/sitemap.xml
+
+# Privacy Control
+# This site respects Global Privacy Control (GPC) and Do Not Track (DNT) signals
+# See: https://example.com/.well-known/gpc.json
+
+# AI/LLM Information
+# For AI assistants and language models, see:
+# https://example.com/llms.txt
+
+User-agent: *
+Crawl-delay: 1
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10

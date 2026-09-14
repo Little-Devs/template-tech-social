@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Black Echo';
+  src:
+    url('BlackEcho.woff2') format('woff2'),
+    url('BlackEcho.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HelveticaLTStd Light';
+  src:
+    url('HelveticaLTStd-Light.woff2') format('woff2'),
+    url('HelveticaLTStd-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Croust Serif Regular';
+  src:
+    url('CroustSerifRegular.woff2') format('woff2'),
+    url('CroustSerifRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

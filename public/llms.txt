@@ -1,0 +1,45 @@
+# Lorem Scene - Information for AI Language Models
+# Format: llms.txt (https://llmstxt.org/)
+
+# About
+
+Lorem Scene is a placeholder community events website template.
+Copy is lorem ipsum and should be replaced before publishing.
+
+## Purpose
+
+- Discover local community events and meetups
+- Connect with sponsors and community partners
+
+## Geographic Coverage
+
+Placeholder cities:
+- Lorem City
+- Ipsum Bay
+
+## Technology Stack
+
+- Frontend: React, TypeScript, Vite
+- UI: Tailwind CSS, shadcn/ui
+
+This is a static public website. There are no user accounts.
+
+## Key URLs
+
+- Homepage: https://example.com/
+- Events: https://example.com/events
+- Community: https://example.com/community
+- Sponsors: https://example.com/sponsors
+- Privacy Policy: https://example.com/privacy
+- Terms: https://example.com/terms
+
+## Contact
+
+- General: hello@example.com
+- Privacy: privacy@example.com
+
+## Sponsors
+
+- Lorem Labs (https://example.com)
+- Ipsum Co (https://example.com)
+- Dolor Group (https://example.com)
